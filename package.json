@@ -24,7 +24,7 @@
     "gatsby-transformer-sharp": "^2.5.16",
     "lodash": "^4.17.20",
     "moment": "^2.29.1",
-    "postcss": "^8.1.1",
+    "postcss": "^7.0.39",
     "prismjs": "^1.22.0",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
@@ -32,6 +32,7 @@
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "gh-pages": "^1.2.0",
     "prettier": "2.1.2",
     "tailwindcss": "^1.8.13"
@@ -52,12 +53,12 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "set NODE_OPTIONS=--openssl-legacy-provider && npx gatsby build --prefix-paths",
-    "develop": "set NODE_OPTIONS=--openssl-legacy-provider && npx gatsby develop",
+    "build": "npx cross-env NODE_OPTIONS=--openssl-legacy-provider gatsby build --prefix-paths",
+    "develop": "npx cross-env NODE_OPTIONS=--openssl-legacy-provider gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
-    "serve": "npx gatsby serve",
-    "clean": "npx gatsby clean",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
     "upgrade-interactive": "npm-check --update"
   },
   "repository": {
