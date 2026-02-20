@@ -1,2 +1,2 @@
-# apriya3.github.io
-This ia my personal website.
+# sakshisuman12.github.io
+This is Sakshi Suman's personal website.

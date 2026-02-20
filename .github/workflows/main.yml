@@ -1,0 +1,26 @@
+name: Publish sakshisuman12 personal website
+
+on:
+  push:
+    branches: [ dev ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: enriikke/gatsby-gh-pages-action@v2.1.1
+        with:
+          access-token: ${{ secrets.portfolio }}
+          deploy-branch: main
+          gatsby-args: --prefix-paths
+      - uses: andstor/copycat-action@v3
+        with:
+          personal_token: ${{ secrets.portfolio }}
+          src_branch: dev
+          src_path: /documents/.
+          dst_branch: main
+          dst_path: /.
+          dst_owner: sakshisuman12
+          dst_repo_name: sakshisuman12.github.io
+          commit_message: "Copied by copycat-action"
