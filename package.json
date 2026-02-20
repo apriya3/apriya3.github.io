@@ -52,12 +52,12 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build --prefix-paths",
-    "develop": "gatsby develop",
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider && npx gatsby build --prefix-paths",
+    "develop": "set NODE_OPTIONS=--openssl-legacy-provider && npx gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
+    "serve": "npx gatsby serve",
+    "clean": "npx gatsby clean",
     "upgrade-interactive": "npm-check --update"
   },
   "repository": {
