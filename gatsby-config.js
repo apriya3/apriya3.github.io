@@ -3,17 +3,17 @@ module.exports = {
     // Site URL for when it goes live
     siteUrl: `http://apriya3.github.io/`,
     // Your Name
-    name: 'Sakshi Suman',
+    name: 'Annu Priya',
     // Main Site Title
-    title: `Sakshi Suman | Graduate Student - Applied Mathematics | Aspiring Machine Learning Engineer`,
+    title: `Annu Priya | Graduate Student - Applied Mathematics | Aspiring Machine Learning Engineer`,
     // Description that goes under your name in main bio
     description: `An aspiring Machine Learning Engineer. I'm looking for internships and co-ops in Machine Learning/Data Science starting Summer 2022.`,
     // Optional: Twitter account handle
-    author: `@sakshisuman12`,
+    author: `@apriya3`,
     // Optional: Github account URL
-    github: `https://github.com/sakshisuman12`,
+    github: `https://github.com/apriya3`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/sakshisuman12/`,
+    linkedin: `https://www.linkedin.com/in/apriya3/`,
     // Content of the About Me section
     about: `I'm pursuing a master's degree in Applied Mathematics at Northeastern University - College of Science with a concentration in Machine Learning and Statistics. My primary strength is Data Structure & Algorithm Implementation. Besides this, I hold a strong background in Linear Algebra, Calculus, Probability & Statistics. I'm looking for a long term career in Machine Learning.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
@@ -148,8 +148,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `sakshisuman12`,
-        short_name: `sakshisuman12`,
+        name: `apriya3`,
+        short_name: `apriya3`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`, // This color appears on mobile

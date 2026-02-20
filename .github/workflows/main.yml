@@ -1,4 +1,4 @@
-name: Publish sakshisuman12 personal website
+name: Publish apriya3 personal website
 
 on:
   push:
@@ -21,6 +21,6 @@ jobs:
           src_path: /documents/.
           dst_branch: main
           dst_path: /.
-          dst_owner: sakshisuman12
-          dst_repo_name: sakshisuman12.github.io
+          dst_owner: apriya3
+          dst_repo_name: apriya3.github.io
           commit_message: "Copied by copycat-action"
