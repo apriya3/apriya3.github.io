@@ -5,15 +5,15 @@ module.exports = {
     // Your Name
     name: 'Annu Priya',
     // Main Site Title
-    title: `Annu Priya | Graduate Student - Applied Mathematics | Aspiring Machine Learning Engineer`,
+    title: `Annu Priya | Senior Data Engineer`,
     // Description that goes under your name in main bio
-    description: `An aspiring Machine Learning Engineer. I'm looking for internships and co-ops in Machine Learning/Data Science starting Summer 2022.`,
+    description: `Senior Data Engineer with 9+ years of experience in designing and implementing end-to-end data pipelines and machine learning models. Passionate about leveraging data to drive business insights and solve complex problems.`,
     // Optional: Twitter account handle
     author: `@apriya3`,
     // Optional: Github account URL
     github: `https://github.com/apriya3`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/apriya3/`,
+    linkedin: `https://www.linkedin.com/in/annu-priya1/`,
     // Content of the About Me section
     about: `I'm pursuing a master's degree in Applied Mathematics at Northeastern University - College of Science with a concentration in Machine Learning and Statistics. My primary strength is Data Structure & Algorithm Implementation. Besides this, I hold a strong background in Linear Algebra, Calculus, Probability & Statistics. I'm looking for a long term career in Machine Learning.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
