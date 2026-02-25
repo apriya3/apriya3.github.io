@@ -1,1 +1,1 @@
-Yet to be updated
+Life is a series of troughs and crests. You have to keep sailing with sanity.
