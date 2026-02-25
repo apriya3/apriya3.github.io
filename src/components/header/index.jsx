@@ -103,6 +103,16 @@ const Header = ({ metadata = {}, noBlog = false }) => {
           <li className={classes.item}>
             <a
               className={classes.link}
+              href="mailto:annupub3@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Contact
+            </a>
+          </li>
+          <li className={classes.item}>
+            <a
+              className={classes.link}
               href="https://google.com/maps/contrib/101112107729949975275/reviews/@47.6176503,-122.355194,13z/data=!4m3!8m2!3m1!1e1?authuser=1&entry=ttu&g_ep=EgoyMDI2MDIyMi4wIKXMDSoASAFQAw%3D%3D"
               target="_blank"
               rel="noreferrer"
