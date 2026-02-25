@@ -104,8 +104,6 @@ const Header = ({ metadata = {}, noBlog = false }) => {
             <a
               className={classes.link}
               href="mailto:annupub3@gmail.com"
-              target="_blank"
-              rel="noreferrer"
             >
               Contact
             </a>
