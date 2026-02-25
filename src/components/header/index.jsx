@@ -93,7 +93,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
           <li className={classes.item}>
             <a
               className={classes.link}
-              href="https://open.spotify.com/collection/tracks"
+              href="https://open.spotify.com/user/93rz4x10dego9i1j96pjbxr5a?si=e93fc9791ca9423b"
               target="_blank"
               rel="noreferrer"
             >
