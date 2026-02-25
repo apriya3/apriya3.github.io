@@ -97,7 +97,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
               target="_blank"
               rel="noreferrer"
             >
-              My Spotify
+              Spotify
             </a>
           </li>
           <li className={classes.item}>
