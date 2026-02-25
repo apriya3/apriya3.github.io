@@ -90,7 +90,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
               </a>
             </li>
           )}
-          <li className={classes.item}>
+          {/* <li className={classes.item}>
             <a
               className={classes.link}
               href="https://open.spotify.com/user/93rz4x10dego9i1j96pjbxr5a?si=e93fc9791ca9423b"
@@ -99,7 +99,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
             >
               Spotify
             </a>
-          </li>
+          </li> */}
           <li className={classes.item}>
             <a
               className={classes.link}
@@ -108,7 +108,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
               Contact
             </a>
           </li>
-          <li className={classes.item}>
+          {/* <li className={classes.item}>
             <a
               className={classes.link}
               href="https://google.com/maps/contrib/101112107729949975275/reviews/@47.6176503,-122.355194,13z/data=!4m3!8m2!3m1!1e1?authuser=1&entry=ttu&g_ep=EgoyMDI2MDIyMi4wIKXMDSoASAFQAw%3D%3D"
@@ -117,7 +117,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
             >
               Google Reviews
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>
