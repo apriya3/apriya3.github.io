@@ -15,16 +15,10 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/annu-priya1/`,
     // Content of the About Me section
-    about: `## About Me
+    about: `I build data systems that help organizations move from intuition to confident, data-driven decisions at scale.
 
-I build data systems that help organizations move from intuition to confident, data-driven decisions at scale.
-
-With over 8 years of experience across data engineering, analytics, and applied machine learning, I specialize in designing end-to-end data platforms that transform complex, high-volume data into reliable products used for operational planning, financial insights, and strategic decision-making. My work combines strong engineering fundamentals with analytical thinking — ensuring data is not only available, but trustworthy, scalable, and actionable.
-
-At Amazon, I worked on large-scale supply chain and operational data ecosystems, developing pipelines and analytics frameworks supporting critical business workflows. I have led initiatives involving large data backfills, metric standardization, data quality automation, and AI-enabled tracking systems that improved reporting reliability and enabled faster decision cycles across cross-functional teams.
-
-What differentiates my approach is my ability to bridge business context with technical execution. I enjoy taking ambiguous problems, defining measurable outcomes, and building systems that continue delivering value long after deployment. My interests increasingly lie in AI-ready data architectures, intelligent analytics platforms, and agent-driven systems that redefine how organizations interact with data.
-
+What differentiates my approach is my ability to bridge business context with technical execution. I enjoy taking ambiguous problems, defining measurable outcomes, and building systems that continue delivering value long after deployment. 
+My interests increasingly lie in intelligent analytics platforms, and agent-driven systems that redefine how organizations interact with data.
 I’m driven by solving meaningful problems, continuously learning emerging technologies, and building systems that scale impact — not just infrastructure.
 `,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
