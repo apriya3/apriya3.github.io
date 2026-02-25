@@ -19,7 +19,7 @@ module.exports = {
 
 What differentiates my approach is my ability to bridge business context with technical execution. I enjoy taking ambiguous problems, defining measurable outcomes, and building systems that continue delivering value long after deployment. 
 My interests increasingly lie in intelligent analytics platforms, and agent-driven systems that redefine how organizations interact with data.
-I’m driven by solving meaningful problems, continuously learning emerging technologies, and building systems that scale impact and not just infrastructure.
+I’m driven by solving meaningful and complex problems, learning evolving technologies, and building scalable systems that deliver real-world impact.
 `,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     // projects: [
