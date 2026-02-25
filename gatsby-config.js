@@ -15,46 +15,57 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/annu-priya1/`,
     // Content of the About Me section
-    about: `I'm a Senior Data Engineer with over 9 years of experience in designing and implementing end-to-end data pipelines and machine learning models. I have a strong background in Python, R, Java, SQL, and various machine learning frameworks. I am passionate about leveraging data to drive business insights and solve complex problems. In my previous roles, I have successfully implemented K-Means algorithms for customer segmentation, developed interactive web applications for data analysis, and optimized algorithms to improve performance. I am always eager to learn new technologies and stay updated with the latest trends in data engineering and machine learning.`,
+    about: `## About Me
+
+I build data systems that help organizations move from intuition to confident, data-driven decisions at scale.
+
+With over 8 years of experience across data engineering, analytics, and applied machine learning, I specialize in designing end-to-end data platforms that transform complex, high-volume data into reliable products used for operational planning, financial insights, and strategic decision-making. My work combines strong engineering fundamentals with analytical thinking — ensuring data is not only available, but trustworthy, scalable, and actionable.
+
+At Amazon, I worked on large-scale supply chain and operational data ecosystems, developing pipelines and analytics frameworks supporting critical business workflows. I have led initiatives involving large data backfills, metric standardization, data quality automation, and AI-enabled tracking systems that improved reporting reliability and enabled faster decision cycles across cross-functional teams.
+
+What differentiates my approach is my ability to bridge business context with technical execution. I enjoy taking ambiguous problems, defining measurable outcomes, and building systems that continue delivering value long after deployment. My interests increasingly lie in AI-ready data architectures, intelligent analytics platforms, and agent-driven systems that redefine how organizations interact with data.
+
+I’m driven by solving meaningful problems, continuously learning emerging technologies, and building systems that scale impact — not just infrastructure.
+`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
-    projects: [
-      {
-        name: 'Transfer Learning with MobileNetV2',
-        description:
-          'Used pre-trained weights of MobileNetV2 Convolutional Neural Netowrk on ImageNet dataset. Modified the network architecture by deleting the top layer and adding a new classification layer. Performed training only on the new layer in order to create a binary Alpaca classifier to increase accuracy from 0 % to 99 %.',
-        link: '',
-      },
-      {
-        name: 'Matrix Factorization for User Rating Predictions',
-        description:
-          'Derived update rules and implemented Weighted Alternating Least Squares for predicting missing user ratings of MovieLens data. Evaluated the algorithm using MSE and found that it is 62 % better than baseline model.',
-        link: '',
-      },
-      {
-        name: 'Data Modeling using Markov Chain',
-        description:
-          'Performed Time Series Analysis of average runs of opening batters in baseball from 1871 - 2015 with a Markov Chain. Calculated autocorrelation between original time series and a simulated time series. Performed GoF test at 5 % significance level to determine valid states of Markov Chain in a two-step transition matrix.',
-        link: '',
-      },
-      {
-        name: 'Customer Experience & Data Analytics Project',
-        description:
-          'Proposed and developed a Sentiment Analysis model to predict customer satisfaction on chats and emails using Logistic Regression and Naive Bayes models in Python and SQL.',
-        link: '',
-      },
-      {
-        name: 'Predator-Prey Mathematical Modeling',
-        description:
-          'Modeled Predator (Bald Eagle) - Prey (Rodents) population growth using Lotka-Volterra equations modified with weak Allee effect and pesticide constant. Simulated population plots with/independent of time and improved the existing model accuracy to 94 %. Also calculated lethal limit for rodenticide usage.',
-        link: '',
-      },
-      {
-        name: 'Northeastern NEWS Updates',
-        description:
-          'Developed a Google Chrome extension to get instant notification updates from News @ Northeastern portal using JavaScript, AJAX, HTML, and CSS.',
-        link: '',
-      },
-    ],
+    // projects: [
+    //   {
+    //     name: 'Transfer Learning with MobileNetV2',
+    //     description:
+    //       'Used pre-trained weights of MobileNetV2 Convolutional Neural Netowrk on ImageNet dataset. Modified the network architecture by deleting the top layer and adding a new classification layer. Performed training only on the new layer in order to create a binary Alpaca classifier to increase accuracy from 0 % to 99 %.',
+    //     link: '',
+    //   },
+    //   {
+    //     name: 'Matrix Factorization for User Rating Predictions',
+    //     description:
+    //       'Derived update rules and implemented Weighted Alternating Least Squares for predicting missing user ratings of MovieLens data. Evaluated the algorithm using MSE and found that it is 62 % better than baseline model.',
+    //     link: '',
+    //   },
+    //   {
+    //     name: 'Data Modeling using Markov Chain',
+    //     description:
+    //       'Performed Time Series Analysis of average runs of opening batters in baseball from 1871 - 2015 with a Markov Chain. Calculated autocorrelation between original time series and a simulated time series. Performed GoF test at 5 % significance level to determine valid states of Markov Chain in a two-step transition matrix.',
+    //     link: '',
+    //   },
+    //   {
+    //     name: 'Customer Experience & Data Analytics Project',
+    //     description:
+    //       'Proposed and developed a Sentiment Analysis model to predict customer satisfaction on chats and emails using Logistic Regression and Naive Bayes models in Python and SQL.',
+    //     link: '',
+    //   },
+    //   {
+    //     name: 'Predator-Prey Mathematical Modeling',
+    //     description:
+    //       'Modeled Predator (Bald Eagle) - Prey (Rodents) population growth using Lotka-Volterra equations modified with weak Allee effect and pesticide constant. Simulated population plots with/independent of time and improved the existing model accuracy to 94 %. Also calculated lethal limit for rodenticide usage.',
+    //     link: '',
+    //   },
+    //   {
+    //     name: 'Northeastern NEWS Updates',
+    //     description:
+    //       'Developed a Google Chrome extension to get instant notification updates from News @ Northeastern portal using JavaScript, AJAX, HTML, and CSS.',
+    //     link: '',
+    //   },
+    // ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
