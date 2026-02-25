@@ -1,17 +1,14 @@
 import React from 'react';
 
+import Section from '../section';
+
 const SectionAbout = ({ about }) => {
   return (
-    <div className="block pt-4">
-      <div className="pb-6">
-        <h2 className="font-xs font-light tracking-widest text-sm text-gray-600 leading-normal uppercase">
-          About Me
-        </h2>
-      </div>
+    <Section title="About Me">
       <div className="mb-6">
-        <p className="text-lg text-gray-600 font-light">{about}</p>
+        <p>{about}</p>
       </div>
-    </div>
+    </Section>
   );
 };
 
