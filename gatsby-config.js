@@ -61,45 +61,45 @@ I’m driven by solving meaningful problems, continuously learning emerging tech
     //   },
     // ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
-    experience: [
-      {
-        name: 'Pelatro Solution Pvt. Limited',
-        description: 'Software Engineer - Machine Learning, Jun 2019 - August 2021. • Implemented K-Means algorithm to predict the Next Best Action for customers. Achieved accuracy of 61 %. • Developed an interactive web application to analyse and report statistics for a Machine Learning pipeline. • Predicted the Customer Lifetime Value using a Markov Chain and achieved an accuracy of 76 %. • Optimized duplicate row detection algorithm using probabilistic approach; reduced time complexity from O(n^2) to O(n). • Containerized and deployed end-to-end applications on production servers using Docker.',
-        link: 'https://www.pelatro.com/',
-      },
-      {
-        name: 'Walkter Beacon Lab',
-        description: 'Data Science Intern, Jan 2019 - May 2019. • Built a CountVectorizer NLP model for comparing a user resume with job descriptions. Automated resume matching process and decreased the time spent by recruiting team by approximately 80 %. • Designed an efficient user visit logging system to calculate the user retention rate and automated email system for an ATS. • Adapted Tesseract OCR\'s code, to increase accuracy in text-recognition for screen fonts from 50 % to 95 %.',
-        link: 'https://www.linkedin.com/company/walkterbeaconlab?originalSubdomain=in',
-      },
-      {
-        name: 'REVA University',
-        description: 'Teaching Assistant, Jan 2018 - Dec 2018. • Courses: Core Java, Object Oriented Programming, Mathematical Foundations of Computer Science I & II. • Promoted to Head TA in Fall 2018; led weekly meetings and supervised four other TAs.',
-        link: 'https://reva.edu.in/',
-      },
-    ],
+    // experience: [
+    //   {
+    //     name: 'Pelatro Solution Pvt. Limited',
+    //     description: 'Software Engineer - Machine Learning, Jun 2019 - August 2021. • Implemented K-Means algorithm to predict the Next Best Action for customers. Achieved accuracy of 61 %. • Developed an interactive web application to analyse and report statistics for a Machine Learning pipeline. • Predicted the Customer Lifetime Value using a Markov Chain and achieved an accuracy of 76 %. • Optimized duplicate row detection algorithm using probabilistic approach; reduced time complexity from O(n^2) to O(n). • Containerized and deployed end-to-end applications on production servers using Docker.',
+    //     link: 'https://www.pelatro.com/',
+    //   },
+    //   {
+    //     name: 'Walkter Beacon Lab',
+    //     description: 'Data Science Intern, Jan 2019 - May 2019. • Built a CountVectorizer NLP model for comparing a user resume with job descriptions. Automated resume matching process and decreased the time spent by recruiting team by approximately 80 %. • Designed an efficient user visit logging system to calculate the user retention rate and automated email system for an ATS. • Adapted Tesseract OCR\'s code, to increase accuracy in text-recognition for screen fonts from 50 % to 95 %.',
+    //     link: 'https://www.linkedin.com/company/walkterbeaconlab?originalSubdomain=in',
+    //   },
+    //   {
+    //     name: 'REVA University',
+    //     description: 'Teaching Assistant, Jan 2018 - Dec 2018. • Courses: Core Java, Object Oriented Programming, Mathematical Foundations of Computer Science I & II. • Promoted to Head TA in Fall 2018; led weekly meetings and supervised four other TAs.',
+    //     link: 'https://reva.edu.in/',
+    //   },
+    // ],
     // Optional: List your skills, they must have `name` and `description`.
-    skills: [
-      {
-        name: 'Languages',
-        description:
-          'Python, R, Java, SQL, MATLAB, HTML, CSS, JavaScript/TypeScript',
-      },
-      {
-        name: 'Machine Learning',
-        description: 'Regression, Classification, Clustering, Dimensionality Reduction, Decision Trees, Random Forests, Bagging, Boosting, Neural Networks, Feature Engineering, Principal Component Analysis',
-      },
-      {
-        name: 'Frameworks',
-        description:
-          'tenosrflow, PyTorch, Hadoop, Apache Spark, Flask, NumPy, pandas, Matplotlib, scikit-learn, SymPy, Jupyter',
-      },
-      {
-        name: 'Additional',
-        description:
-          'Git, Jenkins, JIRA, Docker, Excel, IntelliJ IDEA, PyCharm, VSCode',
-      },
-    ],
+    // skills: [
+    //   {
+    //     name: 'Languages',
+    //     description:
+    //       'Python, R, Java, SQL, MATLAB, HTML, CSS, JavaScript/TypeScript',
+    //   },
+    //   {
+    //     name: 'Machine Learning',
+    //     description: 'Regression, Classification, Clustering, Dimensionality Reduction, Decision Trees, Random Forests, Bagging, Boosting, Neural Networks, Feature Engineering, Principal Component Analysis',
+    //   },
+    //   {
+    //     name: 'Frameworks',
+    //     description:
+    //       'tenosrflow, PyTorch, Hadoop, Apache Spark, Flask, NumPy, pandas, Matplotlib, scikit-learn, SymPy, Jupyter',
+    //   },
+    //   {
+    //     name: 'Additional',
+    //     description:
+    //       'Git, Jenkins, JIRA, Docker, Excel, IntelliJ IDEA, PyCharm, VSCode',
+    //   },
+    // ],
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
