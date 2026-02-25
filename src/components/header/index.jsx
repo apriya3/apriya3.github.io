@@ -5,7 +5,7 @@ import React from 'react';
 import profileImg from '../../images/profile.jpg';
 
 const classes = {
-  wrapper: 'block mb-6 md:flex',
+  wrapper: 'block mb-3 md:flex',
   imageWrapper: 'w-full max-w-150',
   image: 'rounded-full transform transition-all duration-150 hover:scale-105',
   contentWrapper: 'flex-none pt-6 md:pt-1 md:flex-1 md:pl-20',
@@ -90,6 +90,16 @@ const Header = ({ metadata = {}, noBlog = false }) => {
               </a>
             </li>
           )}
+          <li className={classes.item}>
+            <a
+              className={classes.link}
+              href="https://open.spotify.com/collection/tracks"
+              target="_blank"
+              rel="noreferrer"
+            >
+              My Spotify
+            </a>
+          </li>
           <li className={classes.item}>
             <a
               className={classes.link}
