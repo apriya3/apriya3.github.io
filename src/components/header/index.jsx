@@ -45,7 +45,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
               </a>
             </li>
           )}
-          {(
+          {/* {(
             <li className={classes.item}>
               <a
                 className={classes.link}
@@ -54,7 +54,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
                 Transcript
               </a>
             </li>
-          )}
+          )} */}
           {twitter && (
             <li className={classes.item}>
               <a
@@ -65,7 +65,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
               </a>
             </li>
           )}
-          {(
+          {/* {(
             <li className={classes.item}>
               <a
                 className={classes.link}
@@ -74,7 +74,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
                 Cover Letter
               </a>
             </li>
-          )}
+          )} */}
           {github && (
             <li className={classes.item}>
               <a className={classes.link} href={github}>

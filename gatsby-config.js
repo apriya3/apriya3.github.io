@@ -15,7 +15,7 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/annu-priya1/`,
     // Content of the About Me section
-    about: `I'm pursuing a master's degree in Applied Mathematics at Northeastern University - College of Science with a concentration in Machine Learning and Statistics. My primary strength is Data Structure & Algorithm Implementation. Besides this, I hold a strong background in Linear Algebra, Calculus, Probability & Statistics. I'm looking for a long term career in Machine Learning.`,
+    about: `I'm a Senior Data Engineer with over 9 years of experience in designing and implementing end-to-end data pipelines and machine learning models. I have a strong background in Python, R, Java, SQL, and various machine learning frameworks. I am passionate about leveraging data to drive business insights and solve complex problems. In my previous roles, I have successfully implemented K-Means algorithms for customer segmentation, developed interactive web applications for data analysis, and optimized algorithms to improve performance. I am always eager to learn new technologies and stay updated with the latest trends in data engineering and machine learning.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
