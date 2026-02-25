@@ -4,7 +4,7 @@ import Section from '../section';
 
 const SectionAbout = ({ about }) => {
   return (
-    <Section title="About Me">
+    <Section title={<span className="block mt-6">About Me</span>}>
       <div className="mb-6">
         <p>{about}</p>
       </div>
