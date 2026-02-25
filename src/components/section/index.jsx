@@ -1,7 +1,7 @@
 import React from 'react';
 
 const classes = {
-  wrapper: 'block pt-12 md:flex',
+  wrapper: 'block pt-6 md:flex',
   title: 'pb-6 md:w-full md:max-w-150 md:p-0',
   heading:
     'font-xs font-light tracking-widest text-sm text-gray-600 leading-normal uppercase',
