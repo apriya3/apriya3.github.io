@@ -89,13 +89,16 @@ const Header = ({ metadata = {}, noBlog = false }) => {
               </a>
             </li>
           )}
-          {!noBlog && (
-            <li className={classes.item}>
-              <Link className={classes.link} to="/blog">
-                Blog
-              </Link>
-            </li>
-          )}
+          <li className={classes.item}>
+            <a
+              className={classes.link}
+              href="https://google.com/maps/contrib/101112107729949975275/reviews/@47.6176503,-122.355194,13z/data=!4m3!8m2!3m1!1e1?authuser=1&entry=ttu&g_ep=EgoyMDI2MDIyMi4wIKXMDSoASAFQAw%3D%3D"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Google Reviews
+            </a>
+          </li>
         </ul>
       </div>
     </div>
